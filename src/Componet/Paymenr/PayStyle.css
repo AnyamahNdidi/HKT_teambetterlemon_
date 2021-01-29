@@ -1,0 +1,23 @@
+.navv{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  
+}
+.navlink :hover{
+  cursor: pointer;
+  color:red;
+
+}
+
+.logoo{
+  width: 10px;
+}
+
+.allheader{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}

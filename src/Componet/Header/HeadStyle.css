@@ -1,0 +1,61 @@
+.container{
+ background: #20639b;
+ height: 80px;
+ width: 200%;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ align-items: center;
+}
+
+
+.name_container{
+  color : white;
+  font-size: 18px;
+  margin-left: 10px;
+  font-weight: bold;
+  margin-top: 22px;
+
+}
+.menu_container{
+  cursor: pointer;
+}
+
+.main_container{
+ margin-left: 100px;
+ display: flex;
+
+}
+.social_container{
+  display: flex;
+  margin-right: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+  .social_container{
+    display: none;
+  }
+}
+.social_container > img{
+
+ display:  flex;
+ margin : 0 0px 0px 15px;
+ color :white;
+ height : 20px
+
+
+}
+@media only screen and (max-width: 600px) {
+  .edwin {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+

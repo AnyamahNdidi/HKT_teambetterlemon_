@@ -1,0 +1,26 @@
+.footer{
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-wrap: wrap;
+  
+}
+
+
+.container_footer{
+  background: #20639b;
+   height: 200px;
+   width:98.8vw;
+   padding-top: 60px;
+   
+   justify-content: center;
+ 
+ 
+}
+
+@media only screen and (max-width: 600px) {
+  .container_footer {
+    width: 100vw;
+  }
+}
